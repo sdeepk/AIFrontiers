@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Deployment Decision — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body data-slide="045" data-total="117">
+  <main class="slide slide-type-diagram">
+    <div class="slide-content">
+      <h1>The Deployment Decision</h1>
+      <div class="decision-tree">
+        <div class="decision-node">Is data highly sensitive? (PII, HIPAA, classified)</div>
+        <div class="decision-branch">
+          <div class="decision-leaf">
+            <div class="decision-label">YES</div>
+            On-prem / Private AI (VMware, vLLM)
+          </div>
+          <div class="decision-leaf">
+            <div class="decision-label">NO</div>
+            Cloud API (Anthropic, OpenAI, Google, Bedrock)
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <nav class="nav-bar">
+    <a href="slide-044.html" class="nav-btn">← Prev</a>
+    <span class="nav-counter">045 / 117</span>
+    <a href="slide-046.html" class="nav-btn">Next →</a>
+    <a href="../index.html" class="nav-btn">⌂ Home</a>
+    <span class="nav-part-label">Part 2</span>
+  </nav>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

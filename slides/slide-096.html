@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Agentic RAG Architecture — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body data-slide="96" data-total="117">
+  <main class="slide slide-type-diagram">
+    <div class="slide-content">
+      <h1>The Agentic RAG Architecture</h1>
+      <div class="flow-row">
+        <div class="flow-step">
+          <span class="flow-num">1</span>
+          <span class="flow-title">Router</span>
+          <span class="flow-desc">Retrieve or not? Which method?</span>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <span class="flow-num">2</span>
+          <span class="flow-title">Retriever</span>
+          <span class="flow-desc">Semantic, keyword, graph, or hybrid</span>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <span class="flow-num">3</span>
+          <span class="flow-title">Grader</span>
+          <span class="flow-desc">Do docs answer the query?</span>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <span class="flow-num">4</span>
+          <span class="flow-title">Generator</span>
+          <span class="flow-desc">Answer with citations</span>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <span class="flow-num">5</span>
+          <span class="flow-title">Hallucination Checker</span>
+          <span class="flow-desc">Verify claims against sources</span>
+        </div>
+      </div>
+      <div class="feedback-loop">&larrhk; If grade = insufficient &rarr; rewrite query and retrieve again</div>
+    </div>
+  </main>
+  <nav class="nav-bar">
+    <a href="slide-095.html" class="nav-btn">← Prev</a>
+    <span class="nav-counter">96 / 117</span>
+    <a href="slide-097.html" class="nav-btn">Next →</a>
+    <a href="../index.html" class="nav-btn">⌂ Home</a>
+    <span class="nav-part-label">Part 4</span>
+  </nav>
+  <script src="../js/nav.js"></script>
+</body>
+</html>
