@@ -1,0 +1,829 @@
+{
+  "parts": {
+    "opening": "Opening",
+    "part-1": "Part 1: The AI Landscape",
+    "part-2": "Part 2: Making AI Work",
+    "part-3": "Part 3: Open Q&A",
+    "part-4": "Part 4: Developer Enablement"
+  },
+  "sections": {
+    "opening": "Opening",
+    "1.1": "AI Adoption",
+    "1.2": "AI Agents",
+    "1.3": "The Evolving Role of Developers",
+    "1.4": "Our AI Journey",
+    "1.5": "Broadcom",
+    "1.6": "Discovery to Scale",
+    "2.1": "Models & Deployment",
+    "2.2": "Scaling AI",
+    "2.3": "Where to Bet Big",
+    "2.4": "What's Working Now",
+    "2.5": "Guardrails & Responsible AI",
+    "2.6": "Strategic Advice",
+    "3.0": "Open Q&A",
+    "4.1": "Developer Maturity",
+    "4.2": "6 Habits",
+    "4.3": "Team Enablement",
+    "4.4": "Toolkit & Close"
+  },
+  "slides": [
+    {
+      "file": "slide-title-slide.html",
+      "title": "Title Slide",
+      "part": "opening",
+      "section": "opening"
+    },
+    {
+      "file": "slide-one-thing-to-leave-with.html",
+      "title": "The One Thing I Want You to Leave With",
+      "part": "opening",
+      "section": "opening"
+    },
+    {
+      "file": "slide-session-map.html",
+      "title": "Session Map",
+      "part": "opening",
+      "section": "opening"
+    },
+    {
+      "file": "slide-ground-rules.html",
+      "title": "Ground Rules",
+      "part": "opening",
+      "section": "opening"
+    },
+    {
+      "file": "slide-divider-1-1.html",
+      "title": "1.1 AI Adoption",
+      "part": "part-1",
+      "section": "1.1"
+    },
+    {
+      "file": "slide-uncomfortable-stat.html",
+      "title": "The Uncomfortable Stat",
+      "part": "part-1",
+      "section": "1.1"
+    },
+    {
+      "file": "slide-hype-cycle.html",
+      "title": "The Hype Cycle",
+      "part": "part-1",
+      "section": "1.1"
+    },
+    {
+      "file": "slide-three-tiers-of-adopters.html",
+      "title": "Three Tiers of Adopters",
+      "part": "part-1",
+      "section": "1.1"
+    },
+    {
+      "file": "slide-tier-3-is-the-game.html",
+      "title": "Tier 3 is the Game",
+      "part": "part-1",
+      "section": "1.1"
+    },
+    {
+      "file": "slide-client-asks-2026.html",
+      "title": "What Clients Are Asking For in 2026",
+      "part": "part-1",
+      "section": "1.1"
+    },
+    {
+      "file": "slide-need-of-the-hour.html",
+      "title": "The Need of the Hour",
+      "part": "part-1",
+      "section": "1.1"
+    },
+    {
+      "file": "slide-structural-shift.html",
+      "title": "The Structural Shift",
+      "part": "part-1",
+      "section": "1.1"
+    },
+    {
+      "file": "slide-divider-1-2.html",
+      "title": "1.2 AI Agents",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-what-is-an-ai-agent.html",
+      "title": "What Is an AI Agent?",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-spectrum-of-agency.html",
+      "title": "The Spectrum of Agency",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-2026-infrastructure-layer.html",
+      "title": "The 2026 Infrastructure Layer",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-agentic-coding.html",
+      "title": "Agentic Coding",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-agentic-coding-stack.html",
+      "title": "The Agentic Coding Stack",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-customer-service-orchestration.html",
+      "title": "Customer Service Orchestration",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-document-intelligence.html",
+      "title": "Document Intelligence",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-aiops.html",
+      "title": "AIOps",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-business-intelligence.html",
+      "title": "Business Intelligence",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-the-caveat.html",
+      "title": "The Caveat",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-fortune-500-asks.html",
+      "title": "What Fortune 500 Are Explicitly Asking For",
+      "part": "part-1",
+      "section": "1.2"
+    },
+    {
+      "file": "slide-divider-1-3.html",
+      "title": "1.3 The Evolving Role of Developers",
+      "part": "part-1",
+      "section": "1.3"
+    },
+    {
+      "file": "slide-uncomfortable-truth.html",
+      "title": "The Uncomfortable Truth",
+      "part": "part-1",
+      "section": "1.3"
+    },
+    {
+      "file": "slide-new-developer-taxonomy.html",
+      "title": "The New Developer Taxonomy",
+      "part": "part-1",
+      "section": "1.3"
+    },
+    {
+      "file": "slide-tier-1-skills-start-this-week.html",
+      "title": "Tier 1 Skills: Start This Week",
+      "part": "part-1",
+      "section": "1.3"
+    },
+    {
+      "file": "slide-tier-2-skills-6-months.html",
+      "title": "Tier 2 Skills: 6 Months",
+      "part": "part-1",
+      "section": "1.3"
+    },
+    {
+      "file": "slide-tier-3-skills-specialist.html",
+      "title": "Tier 3 Skills: Specialist Track",
+      "part": "part-1",
+      "section": "1.3"
+    },
+    {
+      "file": "slide-opportunities-ahead.html",
+      "title": "The Opportunities Ahead",
+      "part": "part-1",
+      "section": "1.3"
+    },
+    {
+      "file": "slide-divider-1-4.html",
+      "title": "1.4 Our AI Journey",
+      "part": "part-1",
+      "section": "1.4"
+    },
+    {
+      "file": "slide-phase-1-experimentation.html",
+      "title": "Phase 1: Experimentation",
+      "part": "part-1",
+      "section": "1.4"
+    },
+    {
+      "file": "slide-phase-2-agent-implementation.html",
+      "title": "Phase 2: Agent Implementation",
+      "part": "part-1",
+      "section": "1.4"
+    },
+    {
+      "file": "slide-phase-3-scale-operationalise.html",
+      "title": "Phase 3: Scale and Operationalisation",
+      "part": "part-1",
+      "section": "1.4"
+    },
+    {
+      "file": "slide-what-id-do-differently.html",
+      "title": "What I'd Do Differently",
+      "part": "part-1",
+      "section": "1.4"
+    },
+    {
+      "file": "slide-divider-1-5.html",
+      "title": "1.5 Broadcom",
+      "part": "part-1",
+      "section": "1.5"
+    },
+    {
+      "file": "slide-broadcom-position-ai-stack.html",
+      "title": "Broadcom's Position in the AI Stack",
+      "part": "part-1",
+      "section": "1.5"
+    },
+    {
+      "file": "slide-custom-silicon-story.html",
+      "title": "The Custom Silicon Story",
+      "part": "part-1",
+      "section": "1.5"
+    },
+    {
+      "file": "slide-vmware-private-ai-foundation.html",
+      "title": "VMware Private AI Foundation",
+      "part": "part-1",
+      "section": "1.5"
+    },
+    {
+      "file": "slide-aiops-enterprise-scale.html",
+      "title": "AIOps at Enterprise Scale",
+      "part": "part-1",
+      "section": "1.5"
+    },
+    {
+      "file": "slide-what-this-means-for-it.html",
+      "title": "What This Means for IT Services",
+      "part": "part-1",
+      "section": "1.5"
+    },
+    {
+      "file": "slide-divider-1-6.html",
+      "title": "1.6 Discovery to Scale",
+      "part": "part-1",
+      "section": "1.6"
+    },
+    {
+      "file": "slide-four-stage-journey.html",
+      "title": "The Four-Stage Journey",
+      "part": "part-1",
+      "section": "1.6"
+    },
+    {
+      "file": "slide-where-projects-succeed-discovery.html",
+      "title": "Where Projects Succeed: Discovery",
+      "part": "part-1",
+      "section": "1.6"
+    },
+    {
+      "file": "slide-where-projects-succeed-poc.html",
+      "title": "Where Projects Succeed: POC",
+      "part": "part-1",
+      "section": "1.6"
+    },
+    {
+      "file": "slide-where-projects-succeed-pilot.html",
+      "title": "Where Projects Succeed: Pilot",
+      "part": "part-1",
+      "section": "1.6"
+    },
+    {
+      "file": "slide-where-projects-succeed-scale.html",
+      "title": "Where Projects Succeed: Scale",
+      "part": "part-1",
+      "section": "1.6"
+    },
+    {
+      "file": "slide-where-projects-fail.html",
+      "title": "Where Projects Fail: The Honest List",
+      "part": "part-1",
+      "section": "1.6"
+    },
+    {
+      "file": "slide-5-question-discovery-framework.html",
+      "title": "The 5-Question Discovery Framework",
+      "part": "part-1",
+      "section": "1.6"
+    },
+    {
+      "file": "slide-divider-2-1.html",
+      "title": "2.1 Models & Deployment",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-deployment-decision.html",
+      "title": "The Deployment Decision",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-2026-model-landscape.html",
+      "title": "The 2026 Model Landscape",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-key-insight-on-models.html",
+      "title": "The Key Insight on Models",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-open-source-llama-4-scout.html",
+      "title": "Open Source: Llama 4 Scout",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-turboquant-breakthrough.html",
+      "title": "TurboQuant: The Breakthrough",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-how-turboquant-works.html",
+      "title": "How TurboQuant Works",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-what-turboquant-changes.html",
+      "title": "What TurboQuant Changes",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-market-reaction.html",
+      "title": "The Market Reaction",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-turboquant-current-status.html",
+      "title": "TurboQuant: Current Status",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-fine-tuning-when-necessary.html",
+      "title": "Fine-Tuning: When It's Actually Necessary",
+      "part": "part-2",
+      "section": "2.1"
+    },
+    {
+      "file": "slide-divider-2-2.html",
+      "title": "2.2 Scaling AI",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-production-readiness-checklist.html",
+      "title": "The Production Readiness Checklist",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-reliability-checklist.html",
+      "title": "Reliability Checklist",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-evaluation-checklist.html",
+      "title": "Evaluation Checklist",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-cost-checklist.html",
+      "title": "Cost Checklist",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-security-checklist.html",
+      "title": "Security Checklist",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-three-adoption-killers.html",
+      "title": "The Three Adoption Killers",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-building-ai-culture.html",
+      "title": "What Actually Works: Building AI Culture",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-change-management-arc.html",
+      "title": "The Change Management Arc",
+      "part": "part-2",
+      "section": "2.2"
+    },
+    {
+      "file": "slide-divider-2-3.html",
+      "title": "2.3 Where to Bet Big",
+      "part": "part-2",
+      "section": "2.3"
+    },
+    {
+      "file": "slide-5-strategic-bets.html",
+      "title": "The 5 Strategic Bets",
+      "part": "part-2",
+      "section": "2.3"
+    },
+    {
+      "file": "slide-bet-1-agentic-ai-enterprise.html",
+      "title": "Bet 1: Agentic AI at Enterprise Scale",
+      "part": "part-2",
+      "section": "2.3"
+    },
+    {
+      "file": "slide-bet-2-long-context-intel.html",
+      "title": "Bet 2: Long-Context Intelligence",
+      "part": "part-2",
+      "section": "2.3"
+    },
+    {
+      "file": "slide-bet-3-on-premise-ai.html",
+      "title": "Bet 3: On-Premise AI Democratisation",
+      "part": "part-2",
+      "section": "2.3"
+    },
+    {
+      "file": "slide-bet-4-ai-native-data-arch.html",
+      "title": "Bet 4: AI-Native Data Architecture",
+      "part": "part-2",
+      "section": "2.3"
+    },
+    {
+      "file": "slide-bet-5-ai-eval-practice.html",
+      "title": "Bet 5: AI Evaluation as a Practice",
+      "part": "part-2",
+      "section": "2.3"
+    },
+    {
+      "file": "slide-divider-2-4.html",
+      "title": "2.4 What's Working Now",
+      "part": "part-2",
+      "section": "2.4"
+    },
+    {
+      "file": "slide-quick-wins-0-6-months.html",
+      "title": "Quick Wins: 0-6 Months",
+      "part": "part-2",
+      "section": "2.4"
+    },
+    {
+      "file": "slide-long-term-plays-6-24-months.html",
+      "title": "Long-Term Plays: 6-24 Months",
+      "part": "part-2",
+      "section": "2.4"
+    },
+    {
+      "file": "slide-roi-model.html",
+      "title": "The ROI Model",
+      "part": "part-2",
+      "section": "2.4"
+    },
+    {
+      "file": "slide-divider-2-5.html",
+      "title": "2.5 Guardrails & Responsible AI",
+      "part": "part-2",
+      "section": "2.5"
+    },
+    {
+      "file": "slide-why-this-matters-more-2026.html",
+      "title": "Why This Matters More in 2026",
+      "part": "part-2",
+      "section": "2.5"
+    },
+    {
+      "file": "slide-input-guardrails.html",
+      "title": "Input Guardrails",
+      "part": "part-2",
+      "section": "2.5"
+    },
+    {
+      "file": "slide-agent-specific-guardrails.html",
+      "title": "Agent-Specific Guardrails",
+      "part": "part-2",
+      "section": "2.5"
+    },
+    {
+      "file": "slide-output-guardrails.html",
+      "title": "Output Guardrails",
+      "part": "part-2",
+      "section": "2.5"
+    },
+    {
+      "file": "slide-three-level-kill-switch.html",
+      "title": "The Three-Level Kill Switch",
+      "part": "part-2",
+      "section": "2.5"
+    },
+    {
+      "file": "slide-five-pitfalls.html",
+      "title": "The Five Pitfalls",
+      "part": "part-2",
+      "section": "2.5"
+    },
+    {
+      "file": "slide-divider-2-6.html",
+      "title": "2.6 Strategic Advice",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-where-not-to-compete.html",
+      "title": "Where NOT to Compete",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-build-differentiated-capability.html",
+      "title": "Where to Build Differentiated Capability",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-ai-amplified-delivery.html",
+      "title": "AI-Amplified Delivery",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-responsible-ai-as-brand.html",
+      "title": "Responsible AI as a Brand",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-context-library.html",
+      "title": "The Context Library",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-own-mcp-integration.html",
+      "title": "Own MCP Integration",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-ai-eval-as-service.html",
+      "title": "AI Evaluation as a Service",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-compounding-productivity-thesis.html",
+      "title": "The Compounding Productivity Thesis",
+      "part": "part-2",
+      "section": "2.6"
+    },
+    {
+      "file": "slide-divider-3-0.html",
+      "title": "Open Q&A",
+      "part": "part-3",
+      "section": "3.0"
+    },
+    {
+      "file": "slide-qa-themes.html",
+      "title": "Q&A Themes",
+      "part": "part-3",
+      "section": "3.0"
+    },
+    {
+      "file": "slide-questions-asked-most.html",
+      "title": "Questions I Get Asked Most",
+      "part": "part-3",
+      "section": "3.0"
+    },
+    {
+      "file": "slide-divider-4-1.html",
+      "title": "4.1 Developer Maturity",
+      "part": "part-4",
+      "section": "4.1"
+    },
+    {
+      "file": "slide-ai-developer-maturity-model.html",
+      "title": "The AI-Assisted Developer Maturity Model",
+      "part": "part-4",
+      "section": "4.1"
+    },
+    {
+      "file": "slide-target-for-covalense.html",
+      "title": "The Target for Covalense",
+      "part": "part-4",
+      "section": "4.1"
+    },
+    {
+      "file": "slide-compounding-argument.html",
+      "title": "The Compounding Argument",
+      "part": "part-4",
+      "section": "4.1"
+    },
+    {
+      "file": "slide-divider-4-2.html",
+      "title": "4.2 6 Habits",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-6-habits-ai-effective-devs.html",
+      "title": "6 Habits of AI-Effective Developers",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-ai-first-drafting.html",
+      "title": "AI-First Drafting",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-crisp-e-framework.html",
+      "title": "The CRISP-E Framework",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-crisp-e-in-action.html",
+      "title": "CRISP-E in Action",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-agentic-rag.html",
+      "title": "Agentic RAG",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-agentic-rag-architecture.html",
+      "title": "The Agentic RAG Architecture",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-benchmark-that-matters.html",
+      "title": "The Benchmark That Matters",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-graphrag-when-you-need-it.html",
+      "title": "GraphRAG: When You Need It",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-contextual-retrieval.html",
+      "title": "Contextual Retrieval",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-build-eval-frameworks-first.html",
+      "title": "Build Evaluation Frameworks First",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-minimum-viable-eval-stack.html",
+      "title": "The Minimum Viable Evaluation Stack",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-code-review-prompt.html",
+      "title": "The Code Review Prompt",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-spec-first-development.html",
+      "title": "Spec-First Development",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-spec-first-workflow.html",
+      "title": "The Spec-First Workflow",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-model-appropriate-task-routing.html",
+      "title": "Model-Appropriate Task Routing",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-learning-with-ai.html",
+      "title": "Learning With AI",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-expert-compression-loop.html",
+      "title": "The Expert Compression Loop",
+      "part": "part-4",
+      "section": "4.2"
+    },
+    {
+      "file": "slide-divider-4-3.html",
+      "title": "4.3 Team Enablement",
+      "part": "part-4",
+      "section": "4.3"
+    },
+    {
+      "file": "slide-what-leads-should-do.html",
+      "title": "What Leads Should Do",
+      "part": "part-4",
+      "section": "4.3"
+    },
+    {
+      "file": "slide-standardise-the-toolkit.html",
+      "title": "Standardise the Toolkit",
+      "part": "part-4",
+      "section": "4.3"
+    },
+    {
+      "file": "slide-build-the-context-library.html",
+      "title": "Build the Context Library",
+      "part": "part-4",
+      "section": "4.3"
+    },
+    {
+      "file": "slide-ai-retros-weekly.html",
+      "title": "AI Retros Weekly",
+      "part": "part-4",
+      "section": "4.3"
+    },
+    {
+      "file": "slide-measure-show-numbers.html",
+      "title": "Measure and Show the Numbers",
+      "part": "part-4",
+      "section": "4.3"
+    },
+    {
+      "file": "slide-define-the-ai-policy.html",
+      "title": "Define the AI Policy",
+      "part": "part-4",
+      "section": "4.3"
+    },
+    {
+      "file": "slide-divider-4-4.html",
+      "title": "4.4 Toolkit & Close",
+      "part": "part-4",
+      "section": "4.4"
+    },
+    {
+      "file": "slide-covalense-ai-dev-toolkit.html",
+      "title": "The Covalense AI Developer Toolkit",
+      "part": "part-4",
+      "section": "4.4"
+    },
+    {
+      "file": "slide-10-point-ai-manifesto.html",
+      "title": "The 10-Point AI Manifesto",
+      "part": "part-4",
+      "section": "4.4"
+    },
+    {
+      "file": "slide-closing.html",
+      "title": "Closing",
+      "part": "part-4",
+      "section": "4.4"
+    }
+  ]
+}

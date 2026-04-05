@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Output Guardrails — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>Output Guardrails</h1>
+      <div class="bullet-list">
+        <div class="bullet-row"><strong>Factual consistency scoring</strong> — does the response cite sources? Do claims match documents?</div>
+        <div class="bullet-row"><strong>Harmful content filtering</strong> — block toxic, biased, or unsafe content before it reaches the user</div>
+        <div class="bullet-row"><strong>PII detection in outputs</strong> — agents can accidentally surface data they shouldn't</div>
+        <div class="bullet-row"><strong>Confidence expression</strong> — agents must be able to say "I don't have reliable information"</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>Factual consistency scoring should run before any output is displayed to the user — check whether the response cites sources and whether claims match the retrieved documents. PII detection in outputs is often overlooked: agents can accidentally surface sensitive data from retrieved documents that should have been filtered. The confidence expression requirement is crucial for trust — agents should always be able to say "I don't have reliable information on this" rather than confidently hallucinating. Make this a mandatory part of your output schema, not optional behaviour.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

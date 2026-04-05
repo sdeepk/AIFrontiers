@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Agentic Coding Stack — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Agentic Coding Stack</h1>
+      <span class="badge">Deep Dive</span>
+      <div class="bullet-list">
+        <div class="bullet-row">
+          <span class="bullet-icon">▸</span>
+          <div><strong>Rules:</strong> Project-level instructions (CLAUDE.md, .cursorrules, AGENTS.md) that shape agent behavior per-repo — coding conventions, architectural constraints, what to avoid</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">▸</span>
+          <div><strong>Skills:</strong> Reusable prompt templates (slash commands) that encode team workflows — /review, /test, /deploy — parameterized and shareable across the team</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">▸</span>
+          <div><strong>Hooks:</strong> Shell commands triggered on agent events (pre-tool-use, post-tool-use) — enforce guardrails, run linters, log actions, gate destructive operations</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">▸</span>
+          <div><strong>Workflows:</strong> Multi-step agentic loops — plan, implement, test, fix — with human checkpoints, spec-first development, and CI integration</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">▸</span>
+          <div><strong>Key insight:</strong> MCP connects agents to tools. Rules, skills, hooks, and workflows make agents reliable and team-aware.</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>This is the layered system that makes coding agents team-aware and reliable. Rules files like CLAUDE.md and .cursorrules are committed to the repo so every developer and agent follows the same conventions. Skills are reusable prompt templates shared across the team. Hooks enforce guardrails automatically — run linters, gate destructive operations. Workflows tie it all together with human checkpoints and CI integration. This stack is what separates toy demos from production coding agents.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

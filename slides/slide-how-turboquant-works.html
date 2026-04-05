@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How TurboQuant Works — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-two-col">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>How TurboQuant Works</h1>
+      <div class="columns">
+        <div class="col">
+          <h3>Stage 1: PolarQuant</h3>
+          <div class="card">Converts data vectors to polar coordinates after random rotation. Makes data distribution highly predictable. Eliminates per-block normalisation constants.</div>
+        </div>
+        <div class="col">
+          <h3>Stage 2: QJL</h3>
+          <div class="card">Quantized Johnson-Lindenstrauss. A 1-bit error correction layer that eliminates residual bias. Total error approaches the information-theoretic lower bound.</div>
+        </div>
+      </div>
+      <div class="flow-row">
+        <div class="flow-step">
+          <div class="flow-title">PolarQuant</div>
+          <div class="flow-desc">Geometric rotation</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-title">QJL</div>
+          <div class="flow-desc">1-bit error correction</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>The two stages are complementary. PolarQuant's key insight is that random rotation makes the data distribution highly predictable, which means you no longer need to store per-block normalisation constants — a major source of overhead. QJL stands for Quantized Johnson-Lindenstrauss — it brings total error to near the information-theoretic lower bound, meaning you mathematically cannot compress much further without losing information. The combination achieves 6x reduction in KV cache memory footprint. Validated on Llama 3.1 and Gemini/Mistral model families.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

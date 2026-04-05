@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Deployment Decision — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-diagram">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Deployment Decision</h1>
+      <span class="badge">2.1 Models &amp; Deployment</span>
+      <p>We'll see in a moment why the on-prem path just became viable.</p>
+      <div class="decision-tree">
+        <div class="decision-node">Is data highly sensitive? (PII, HIPAA, classified)</div>
+        <div class="decision-branch">
+          <div class="decision-leaf">
+            <div class="decision-label">YES</div>
+            On-prem / Private AI (VMware, vLLM)
+          </div>
+          <div class="decision-leaf">
+            <div class="decision-label">NO</div>
+            Cloud API (Anthropic, OpenAI, Google, Bedrock)
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>The decision tree on screen is simplified deliberately — walk through the sub-branches verbally. If YES on sensitive data, the next question is latency vs cost: latency-critical workloads need custom inference on vLLM + GB200, while cost-constrained workloads can use TurboQuant-optimised open-source models on commodity hardware. Emphasise that VMware Private AI Foundation directly addresses data sovereignty for regulated Fortune 500 clients in BFSI, healthcare, and defence. Transition: the next few slides show why the on-prem path just got dramatically more viable.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

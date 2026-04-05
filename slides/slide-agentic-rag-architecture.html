@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Agentic RAG Architecture — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-diagram">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Agentic RAG Architecture</h1>
+      <div class="flow-row">
+        <div class="flow-step">
+          <span class="flow-num">1</span>
+          <span class="flow-title">Router</span>
+          <span class="flow-desc">Retrieve or not? Which method?</span>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <span class="flow-num">2</span>
+          <span class="flow-title">Retriever</span>
+          <span class="flow-desc">Semantic, keyword, graph, or hybrid</span>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <span class="flow-num">3</span>
+          <span class="flow-title">Grader</span>
+          <span class="flow-desc">Do docs answer the query?</span>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <span class="flow-num">4</span>
+          <span class="flow-title">Generator</span>
+          <span class="flow-desc">Answer with citations</span>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <span class="flow-num">5</span>
+          <span class="flow-title">Hallucination Checker</span>
+          <span class="flow-desc">Verify claims against sources</span>
+        </div>
+      </div>
+      <div class="feedback-loop">&larrhk; If grade = insufficient &rarr; rewrite query and retrieve again</div>
+    </div>
+  </main>
+  <speaker-notes>Walk through each component: the Router decides whether to retrieve at all and which method to use. The Retriever executes semantic, keyword, or graph search — or all three in parallel. The Grader evaluates whether retrieved documents actually answer the query — if not, it rewrites the query and retrieves again (the feedback loop at the bottom). The Generator produces the answer with citations per claim. The Hallucination Checker verifies every claim against source documents before the user sees it. This feedback loop is what distinguishes agentic RAG from basic RAG — it self-corrects before responding.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

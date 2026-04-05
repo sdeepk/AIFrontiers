@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Spec-First Workflow — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Spec-First Workflow</h1>
+      <div class="numbered-list">
+        <div class="numbered-item">Write a rough description of what needs to be built</div>
+        <div class="numbered-item">Ask AI to generate a technical spec (inputs, outputs, data model, API design)</div>
+        <div class="numbered-item">Review and refine the spec with architect/PM</div>
+        <div class="numbered-item">Store as SPEC.md in the repo root</div>
+        <div class="numbered-item">Reference SPEC.md in every subsequent AI prompt</div>
+        <div class="numbered-item">Use the spec as source of truth for test generation</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>The compounding benefit is in steps 5 and 6: once the spec exists, every subsequent AI prompt can reference it — "Given the spec in SPEC.md, implement the payment processing module." Test generation uses the spec as its source of truth: "Generate comprehensive tests for all scenarios in SPEC.md." The spec itself can be AI-generated from a rough description and then reviewed by an architect or PM. This means the effort to create it is low but the payoff compounds across the entire project lifecycle. Start doing this on your next project — it takes 30 minutes and saves days.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

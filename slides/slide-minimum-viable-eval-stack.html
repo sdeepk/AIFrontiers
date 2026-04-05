@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Minimum Viable Evaluation Stack — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Minimum Viable Evaluation Stack</h1>
+      <div class="numbered-list">
+        <div class="numbered-item"><strong>Golden dataset:</strong> 100–300 representative queries with expected outputs. Versioned in git.</div>
+        <div class="numbered-item"><strong>LLM-as-judge pipeline:</strong> Claude Opus 4.6 or GPT-5.4 evaluating accuracy, groundedness, completeness.</div>
+        <div class="numbered-item"><strong>Factual consistency score:</strong> Does every claim appear in source documents?</div>
+        <div class="numbered-item"><strong>Regression gate:</strong> Every PR that changes a prompt must pass evaluation. Score drops >3% = PR blocked.</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>The golden dataset is your ground truth — 100 to 300 representative queries with expected outputs, versioned in git, maintained as the system evolves. The LLM-as-judge pipeline uses a capable model like Claude Opus 4.6 to evaluate outputs on accuracy, groundedness, completeness, and format compliance. Factual consistency scoring checks whether every claim in the output appears in retrieved source documents — tools like RAGAS and TruLens help here. The regression gate is critical: every PR that changes a prompt, retrieval config, or model parameter must pass evaluation. If the score drops more than 3%, the PR is blocked. This is CI/CD for AI.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

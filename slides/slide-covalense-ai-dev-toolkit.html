@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Covalense AI Developer Toolkit — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-table">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Covalense AI Developer Toolkit</h1>
+      <table>
+        <thead>
+          <tr><th>Category</th><th>Tool</th><th>Use Case</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Agentic coding IDE</td><td>Cursor</td><td>AI-native coding, agent mode</td></tr>
+          <tr><td>Terminal AI</td><td>Claude Code</td><td>Autonomous multi-step coding</td></tr>
+          <tr><td>Conversational AI</td><td>Claude (claude.ai)</td><td>Architecture, debugging, review</td></tr>
+          <tr><td>Code review</td><td>GitHub Copilot Coding Agent</td><td>Automated first-pass PR review</td></tr>
+          <tr><td>API layer</td><td>Anthropic API / Sonnet 4.6</td><td>Production AI features</td></tr>
+          <tr><td>Agent orchestration</td><td>LangGraph / LlamaIndex</td><td>Multi-agent pipelines</td></tr>
+          <tr><td>GraphRAG</td><td>Microsoft GraphRAG + Neo4j</td><td>Entity-relationship retrieval</td></tr>
+          <tr><td>Evaluation</td><td>RAGAS + Langfuse</td><td>RAG evaluation, tracing</td></tr>
+          <tr><td>Local / on-prem</td><td>Ollama + Llama 4 Scout</td><td>Sensitive data, offline</td></tr>
+          <tr><td>Vector store</td><td>pgvector &rarr; Weaviate</td><td>RAG pipelines</td></tr>
+          <tr><td>MCP framework</td><td>Anthropic MCP SDK</td><td>Enterprise tool integration</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <speaker-notes>This is the recommended stack for 2026 — not exhaustive, but the starting point. Key choices: start with pgvector for your vector store since you likely already have PostgreSQL, then migrate to Weaviate as you scale. Ollama plus Llama 4 Scout handles sensitive data and offline development. LangGraph or LlamaIndex Workflows for stateful multi-agent pipelines. RAGAS plus Langfuse gives you both RAG evaluation and LLM tracing with cost monitoring. The MCP SDK is critical — building MCP integrations for client enterprise tools is where Covalense can create differentiated value. These tools work together as a coherent stack.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn">&#8962; Home</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

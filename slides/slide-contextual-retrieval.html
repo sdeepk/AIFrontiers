@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contextual Retrieval — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>Contextual Retrieval</h1>
+      <div class="bullet-list">
+        <div class="bullet-row"><strong>Technique:</strong> Before indexing, generate a context summary for each chunk</div>
+        <div class="bullet-row">Example: 'This chunk comes from Document X, section Y, about topic Z'</div>
+        <div class="bullet-row highlight-success">Chunks indexed with context are retrieved with dramatically higher precision</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>This is an Anthropic technique that dramatically improves retrieval precision. Before indexing, you use a model to generate a context summary for each chunk explaining where it comes from and what it discusses in the context of the larger document. The model then has enough context during retrieval to know when a chunk is actually relevant versus just superficially similar. This is cheap to implement — it is a one-time indexing cost — and the precision improvement is substantial. If you are building any RAG pipeline, add contextual retrieval to your indexing step. Transition: now let's talk about the most neglected habit — evaluation.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

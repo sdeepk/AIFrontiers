@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Three-Level Kill Switch — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-diagram">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Three-Level Kill Switch</h1>
+      <div class="bullet-list">
+        <div class="traffic-light-row traffic-light-green">
+          <span class="traffic-light-dot"></span>
+          <div>
+            <span class="tl-label">Level 1: Feature Flag</span>
+            <span class="tl-desc">Toggle AI off without deployment</span>
+          </div>
+        </div>
+        <div class="traffic-light-row traffic-light-amber">
+          <span class="traffic-light-dot"></span>
+          <div>
+            <span class="tl-label">Level 2: Circuit Breaker</span>
+            <span class="tl-desc">Auto-disable on error rate threshold</span>
+          </div>
+        </div>
+        <div class="traffic-light-row traffic-light-red">
+          <span class="traffic-light-dot"></span>
+          <div>
+            <span class="tl-label">Level 3: Emergency Stop</span>
+            <span class="tl-desc">Manual override with immediate effect</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>Every production AI system needs all three levels. Feature flag lets you toggle AI off without a deployment — this is for planned rollbacks or gradual rollouts. Circuit breaker auto-disables the system when the error rate crosses a threshold — this catches degradation before users report it. Emergency stop is manual override with immediate effect for when something goes seriously wrong. Additionally, implement model version pinning so you know exactly which model version, prompt version, and retrieval pipeline version produced any given output. For EU AI Act compliance, a defined human reviewer role with authority and access to intervene is mandatory for high-risk systems.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

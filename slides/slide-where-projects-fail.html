@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where Projects Fail: The Honest List — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>Where Projects Fail: The Honest List</h1>
+      <div class="numbered-list">
+        <div class="numbered-item highlight-danger">'AI strategy' without a use case</div>
+        <div class="numbered-item highlight-danger">Data readiness assumption</div>
+        <div class="numbered-item highlight-danger">POC to production gap</div>
+        <div class="numbered-item highlight-danger">No evaluation framework</div>
+        <div class="numbered-item highlight-danger">No change management</div>
+        <div class="numbered-item highlight-danger">Metrics creep</div>
+        <div class="numbered-item highlight-danger">Prompt injection ignored</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>Walk through each briefly with the detail from the doc. "AI strategy without a use case" means "we need an AI roadmap" with no specific painful problem. Data readiness: 6-12 months of data prep is normal, not an exception. POC to production gap: the POC used GPT-5.4 with no latency/cost constraints and a clean test dataset — production has both constraints and messy real data. No evaluation: systems shipped without any way to know if they are working or degrading. No change management: the AI system is built but the workflow is unchanged and humans route around it. Metrics creep makes it impossible to declare victory. Prompt injection: retrieved documents can contain adversarial instructions — no sanitisation means critical vulnerability.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

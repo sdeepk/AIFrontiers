@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Code Review Prompt — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Code Review Prompt</h1>
+      <div class="numbered-list">
+        <div class="numbered-item"><strong>Security vulnerabilities</strong> — injection, auth bypass, data exposure</div>
+        <div class="numbered-item"><strong>Performance issues</strong> — N+1 queries, blocking calls, memory leaks</div>
+        <div class="numbered-item"><strong>Error handling completeness</strong> — external calls, edge cases, null handling</div>
+        <div class="numbered-item"><strong>Test coverage gaps</strong> — what scenarios are untested?</div>
+        <div class="numbered-item"><strong>Context engineering opportunities</strong> — could structure make AI assistance better?</div>
+      </div>
+      <p>Flag by severity: CRITICAL / IMPORTANT / SUGGESTION</p>
+    </div>
+  </main>
+  <speaker-notes>This is a ready-to-use prompt template for AI-assisted code review. The fifth item — context engineering opportunities — is unique: it asks whether comments, types, or structure could make AI assistance better in this part of the codebase. The severity flagging (CRITICAL, IMPORTANT, SUGGESTION) forces the AI to prioritize, which reduces noise. For CRITICAL and IMPORTANT items, it must state the specific risk and the minimal fix. Copy this into your team's prompt library and adapt it to your stack. Use it as a pre-merge gate alongside your evaluation pipeline.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

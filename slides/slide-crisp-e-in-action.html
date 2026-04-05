@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRISP-E in Action — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-two-col">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>CRISP-E in Action</h1>
+      <div class="columns">
+        <div class="col">
+          <h3>Bad Prompt</h3>
+          <div class="card highlight-danger">Write a login function</div>
+        </div>
+        <div class="col">
+          <h3>CRISP-E Prompt</h3>
+          <div class="card highlight-success">You are a senior Node.js security engineer working on an Express API. Write a login handler that validates against users table using bcrypt, returns JWT signed with RS256, returns 401 without revealing which field is wrong, logs all attempts. I will verify with: valid user, invalid password, non-existent email, SQL injection attempt.</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>Walk through the right-hand example: notice it specifies Context (Express API with PostgreSQL), Role (senior Node.js security engineer), Intent (login handler), Specifics (bcrypt, RS256 JWT, 401 without revealing which field, audit logging, no new dependencies), Prior art (references existing db client), and Evaluation (test with valid user, invalid password, non-existent email, missing fields, SQL injection). The bad prompt produces generic code. The CRISP-E prompt produces production-ready, security-conscious code on the first attempt. This is a real example — try it yourself after this session.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

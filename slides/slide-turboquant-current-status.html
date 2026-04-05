@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TurboQuant: Current Status — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>TurboQuant: Current Status</h1>
+      <div class="bullet-list">
+        <div class="bullet-row"><strong>Google open-source release:</strong> ~Q2 2026</div>
+        <div class="bullet-row"><strong>Community ports:</strong> llama.cpp, MLX (Apple Silicon) in progress</div>
+        <div class="bullet-row"><strong>Today's best approximation:</strong> Q4_K_M GGUF + Flash Attention 3</div>
+        <div class="bullet-row highlight-warning"><strong>Note:</strong> 3-bit shows quality degradation in models under 8B parameters</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>For teams wanting to act now: complementary techniques like Flash Attention 3, speculative decoding, and Gemini's context caching already capture much of the practical efficiency gains available today. The 4-bit benchmark results hold strong; 3-bit degrades on models under 8B parameters so stick to 4-bit for smaller models. The practical recommendation is Q4_K_M GGUF quantization plus Flash Attention 3 as the best available stack until TurboQuant officially ships. Transition to fine-tuning: given how good these models are now, when do you actually need to fine-tune?</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

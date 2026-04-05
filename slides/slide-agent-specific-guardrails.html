@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent-Specific Guardrails — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>Agent-Specific Guardrails</h1>
+      <span class="badge">New in 2026</span>
+      <div class="bullet-list">
+        <div class="bullet-row"><strong>Tool call whitelisting:</strong> Pre-approved, minimal set of tools only</div>
+        <div class="bullet-row"><strong>Max iteration limits:</strong> Hard cap on steps. Runaway agents = runaway costs.</div>
+        <div class="bullet-row"><strong>Human checkpoint triggers:</strong> High-value transactions, irreversible actions, low confidence</div>
+        <div class="bullet-row"><strong>Action reversibility by design:</strong> Write to draft before sending. Staging before committing.</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>These guardrails are new for 2026 because agents take actions that chatbots do not. Tool call whitelisting means agents should only have access to a pre-approved minimal set of tools — never open-ended access to production systems. Max iteration limits are non-negotiable: we saw in the pitfalls that a runaway agent can generate a $40,000 API invoice overnight. Human checkpoint triggers should fire on high-value transactions, irreversible actions, and low-confidence retrieval. Action reversibility means designing agent workflows assuming actions will sometimes be wrong — write to a draft before sending, staging table before committing.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

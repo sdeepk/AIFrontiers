@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fine-Tuning: When It's Actually Necessary — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-diagram">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>Fine-Tuning: When It's Actually Necessary</h1>
+      <div class="numbered-list">
+        <div class="numbered-item"><strong>Step 1:</strong> Can a well-engineered context window solve this? 1M tokens + structured retrieval → try this first.</div>
+        <div class="numbered-item"><strong>Step 2:</strong> Can Agentic RAG with GraphRAG solve this? Try this before fine-tuning.</div>
+        <div class="numbered-item"><strong>Step 3:</strong> Is the problem about proprietary taxonomy? → Fine-tuning helps.</div>
+        <div class="numbered-item"><strong>Step 4:</strong> Do you have 1,000+ high-quality labelled examples? If no: collect data first.</div>
+        <div class="numbered-item highlight-success"><strong>Step 5:</strong> Consider fine-tuning.</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>The case for fine-tuning has narrowed, not expanded, as frontier models improved and long-context capabilities grew. Default to context engineering and agentic RAG first — it is cheaper, faster, and does not require data labelling. When fine-tuning is justified, LoRA/QLoRA is still the gold standard — roughly 10x cheaper than full fine-tuning; you can run a 70B model on a single A100 with QLoRA. RLAIF (RL from AI Feedback) reduces human labelling burden by 60-80%. For many apparent fine-tuning use cases, cached system prompts with rich few-shot examples are sufficient and far cheaper. Transition to Section 2.2: now let us talk about taking these models to production.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

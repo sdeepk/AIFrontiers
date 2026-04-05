@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Production Readiness Checklist — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>The Production Readiness Checklist</h1>
+      <span class="badge">2.2 Scaling AI</span>
+      <div class="bullet-list">
+        <div class="bullet-row"><strong>Reliability</strong> — retry logic, circuit breakers, fallback routing</div>
+        <div class="bullet-row highlight-warning"><strong>Evaluation</strong> — the most neglected category</div>
+        <div class="bullet-row"><strong>Cost</strong> — token usage instrumented per agent, per workflow</div>
+        <div class="bullet-row"><strong>Security</strong> — prompt injection protection on all retrieved content</div>
+        <div class="bullet-row"><strong>Operations</strong> — full distributed tracing</div>
+      </div>
+      <p>Most teams only do the first one.</p>
+    </div>
+  </main>
+  <speaker-notes>This checklist is updated specifically for agentic systems — traditional ML production checklists miss agent-specific concerns like runaway loops, tool call permissions, and agent state recovery. The next four slides break down each category in detail. Emphasise that most teams only address reliability and skip evaluation, cost, and security entirely. The evaluation gap is the single biggest reason AI systems degrade silently in production. Ask the audience: how many of these five categories does your current system cover?</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

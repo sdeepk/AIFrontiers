@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reliability Checklist — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-checklist">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>Reliability Checklist</h1>
+      <div class="checklist">
+        <div class="checklist-item">Retry logic, circuit breakers, and fallback model routing configured</div>
+        <div class="checklist-item">Max iteration limits enforced for agents (prevent runaway loops)</div>
+        <div class="checklist-item">Latency p95 within user tolerance (interactive: &lt;3s)</div>
+        <div class="checklist-item">Agent state is recoverable — can resume or explain on failure</div>
+        <div class="checklist-item">Tool call permissions explicitly whitelisted</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>Two items to stress verbally: tool call whitelisting means agents should never have open-ended API access to production systems — this is a common mistake. Agent state recoverability means if an agent fails mid-task, it should be able to resume or at minimum explain what it completed before failing. For latency, the rule of thumb is interactive under 3 seconds at p95 and batch workloads on acceptable async timelines. Max iteration limits are non-negotiable — we will see in Section 2.5 what happens when a loop runs away.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

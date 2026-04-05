@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GraphRAG: When You Need It — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-bullets">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>GraphRAG: When You Need It</h1>
+      <div class="bullet-list">
+        <div class="bullet-row"><strong>What it unlocks:</strong> Relationship-heavy queries. Multi-hop reasoning over entity-relationship knowledge.</div>
+        <div class="bullet-row highlight-warning"><strong>Cost caveat:</strong> 3–5× more LLM calls than baseline RAG</div>
+        <div class="bullet-row"><strong>Decision rule:</strong> Use for relationship-heavy domains. Use vector + hybrid for most others.</div>
+        <div class="bullet-row"><strong>Stack:</strong> Microsoft GraphRAG (open source) + Neo4j is the most production-mature.</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>GraphRAG builds an entity-relationship graph — people, products, policies, contracts as nodes, relationships as edges — instead of treating knowledge as a flat document collection. It enables queries like "What are all the compliance risks across our vendor contracts with EU suppliers?" — a multi-hop question that pure vector search cannot answer. Microsoft's GraphRAG is the reference implementation; Neo4j plus LLM is the most production-mature stack. But the cost caveat is real: 3-5x more LLM calls than baseline RAG for the extraction phase. Use it for relationship-heavy domains; vector plus hybrid search handles most others.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluation Checklist — AI Frontiers</title>
+  <link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+  <main class="slide slide-type-checklist">
+  <div class="breadcrumb"></div>
+    <div class="slide-content">
+      <h1>Evaluation Checklist</h1>
+      <span class="badge">Most Neglected</span>
+      <p>We'll build this step-by-step in Part 4, Habit 3.</p>
+      <div class="checklist">
+        <div class="checklist-item">Golden dataset of 200–500 test cases maintained in version control</div>
+        <div class="checklist-item">Automated evaluation: LLM-as-judge + task-specific metrics + factual consistency</div>
+        <div class="checklist-item">Hallucination rate measured and alerted</div>
+        <div class="checklist-item">Regression tests on every prompt change, model update, or retrieval change</div>
+        <div class="checklist-item">Human review queue for edge cases — someone reviews worst outputs daily</div>
+      </div>
+    </div>
+  </main>
+  <speaker-notes>This is the most neglected category — say this with conviction. 70% of RAG systems have no systematic evaluation. The golden dataset of 200-500 test cases should be version controlled and maintained like code. Regression tests must run on every prompt change, model update, or retrieval pipeline change — not just on major releases. The human review queue means someone reviews the worst outputs daily, not weekly. We will build this step-by-step in Part 4 when we cover Habit 3 and the minimum viable evaluation stack.</speaker-notes>
+  <nav class="nav-bar">
+    <a class="nav-btn nav-prev" title="Previous slide">←</a>
+    <span class="nav-counter"></span>
+    <a class="nav-btn nav-next" title="Next slide">→</a>
+    <a href="../index.html" class="nav-btn" title="Home">⌂</a>
+    <select class="nav-section-jump"></select>
+  </nav>
+  <div class="speaker-notes-panel"></div>
+  <script src="manifest.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>
